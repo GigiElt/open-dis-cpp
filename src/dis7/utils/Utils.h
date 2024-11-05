@@ -1,9 +1,10 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-const double pi = 3.14159265358979;
-
 namespace DIS {
+
+const double PI = 3.14159265358979;
+
 class Utils
 {
 public:
@@ -13,8 +14,8 @@ public:
 
     static double getRollFromEuler(double lat, double lon, double psi, double theta, double phi);
 
-    static double radToDeg(double rad) { return rad * (180 / pi); };
-    static double degToRad(double deg) { return deg * (pi / 180); };
+    static double radToDeg(double rad) { return rad * (180 / PI); };
+    static double degToRad(double deg) { return deg * (PI / 180); };
 };
 } // namespace DIS
 #endif // UTILS_H
