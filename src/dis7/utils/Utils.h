@@ -10,31 +10,31 @@ class Utils
 public:
     /**
      * @brief getOrientationFromEuler
-     * @param lat should be expressed in radians
-     * @param lon should be expressed in radians
-     * @param psi shall follow Tait-Bryan angle convention in the XYZ
-     * @param theta shall follow Tait-Bryan angle convention in the XYZ
+     * @param lat latitude expressed in radians
+     * @param lon longitude expressed in radians
+     * @param psi X angle part of Tait-Bryan XYZ convention expressed in radians
+     * @param theta Y angle part of Tait-Bryan XYZ convention expressed in radians
      * @return 
      */
     static double getOrientationFromEuler(double lat, double lon, double psi, double theta);
 
     /**
      * @brief getPitchFromEuler
-     * @param lat should be expressed in radians
-     * @param lon should be expressed in radians
-     * @param psi shall follow Tait-Bryan angle convention in the XYZ
-     * @param theta shall follow Tait-Bryan angle convention in the XYZ
+     * @param lat latitude expressed in radians
+     * @param lon longitude expressed in radians
+     * @param psi X angle part of Tait-Bryan XYZ convention expressed in radians
+     * @param theta Y angle part of Tait-Bryan XYZ convention expressed in radians
      * @return 
      */
     static double getPitchFromEuler(double lat, double lon, double psi, double theta);
 
     /**
      * @brief getRollFromEuler
-     * @param lat should be expressed in radians
-     * @param lon should be expressed in radians
-     * @param psi shall follow Tait-Bryan angle convention in the XYZ
-     * @param theta shall follow Tait-Bryan angle convention in the XYZ
-     * @param phi shall follow Tait-Bryan angle convention in the XYZ
+     * @param lat latitude expressed in radians
+     * @param lon longitude expressed in radians
+     * @param psi X angle part of Tait-Bryan XYZ convention expressed in radians
+     * @param theta Y angle part of Tait-Bryan XYZ convention expressed in radians
+     * @param phi Z angle part of Tait-Bryan XYZ convention expressed in radians
      * @return 
      */
     static double getRollFromEuler(double lat, double lon, double psi, double theta, double phi);
