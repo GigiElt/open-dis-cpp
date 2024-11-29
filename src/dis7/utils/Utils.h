@@ -1,5 +1,5 @@
-#ifndef UTILS_H
-#define UTILS_H
+#ifndef _dis_utils_h_
+#define _dis_utils_h_
 
 namespace DIS {
 
@@ -18,4 +18,4 @@ public:
     static double degToRad(double deg) { return deg * (PI / 180); };
 };
 } // namespace DIS
-#endif // UTILS_H
+#endif //_dis_utils_h_
